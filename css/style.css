@@ -1,8 +1,15 @@
 /*Color del fondo*/
 body{
-    background-color: white;
+    background-color:gray;
 }
 
 h2{
     font-style: italic;
+}
+
+.gris{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.top-nav-collapse{
+    background-color: rgba(0, 0, 0, 0.438) !important;
 }
