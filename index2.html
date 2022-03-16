@@ -15,7 +15,7 @@
 	<!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
-<body class="red">
+<body class="asd">
 	<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top gris">
 		<div class="container">
 			<a class="navbar-brand" href="#">
@@ -46,11 +46,57 @@
 				</div>
 			  </div>
 		</div>
-	  </nav>
+	</nav>
 
+	  <!-- <div id="SliderBasico" class="carousel slide" data-ride="carousel">
+		  <div class="container">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/auto_slider.png" alt="..." class="d-block w-100">
+				</div>
+				<div class="carousel-item">
+					<img src="img/primax-new-render-alpha.png" alt="..." class="d-block w-100">
+				</div>
+			</div>
+			<a href="#SliderBasico" class="carousel-control-prev" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Anterior</span>
+			</a>
+  
+		  </div>
+	  </div> -->
+	  <div id="sliderBasico" class="carousel slide" data-ride="carousel"> 
+		  <!--data-ride permite extraer desde JS-->
+			<ol class="carousel-indicators">
+				<li data-target="#sliderBasico" data-slide-to="0" class="active"></li>
+				<li data-target="#sliderBasico" data-slide-to="1"></li>
+			</ol>
+		  <div class="carousel-inner">
+			  <!--class="carousel-inner es el carousel interno-->
+			  <div class="carousel-item active"> 
+						  <!--Aqui dentro van las imagenes. active se coloca al primero-->
+					<img src="img/primax-new-render-alpha.png" alt="..." class="d-block w-50">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>
+			  <div class="carousel-item"> 
+					<!--Aqui dentro van las imagenes. active ya NO se coloca-->
+					<img src="img/icono_slider.png" alt="..." class="d-block w-50">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>			  
+			</div>
+			<a href="#sliderBasico" class="carousel-control-prev" role="button" data-slide="prev">
+				<!--href va al mismo slide. data-slide="prev" dice que va al previo-->
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span> <!--Esta mostrando el icono-->
+				<span class="visually-hidden"></span>
+			</a>
+			<a href="#sliderBasico" class="carousel-control-next" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden"></span>
+			</a>
+	  </div>
 	
 	  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+	
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

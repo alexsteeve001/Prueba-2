@@ -1,0 +1,82 @@
+********************************************
+Slider Basico, solo con dos imagenes. 
+No tiene ni flechas de movimiento, ni indicadores de slider actual  
+**********
+<div id="sliderBasico" class="carousel slide" data-ride="carousel"> 
+		  <!--data-ride permite extraer desde JS-->
+		  <div class="carousel-inner">
+			  <!--class="carousel-inner es el carousel interno-->
+			  <div class="carousel-item active"> 
+						  <!--Aqui dentro van las imagenes. active se coloca al primero-->
+				  <img src="img/primax-new-render-alpha.png" alt="..." class="d-block w-100">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>
+			  <div class="carousel-item"> 
+				<!--Aqui dentro van las imagenes. active ya NO se coloca-->
+				<img src="img/icono_slider.png" alt="..." class="d-block w-100">
+				<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>			  
+			</div>
+</div>
+
+***********************************************
+Carousel basico con 2 imagenes. INCLUYE FLECHAS DE NAVEGACION
+**********
+	  <div id="sliderBasico" class="carousel slide" data-ride="carousel"> 
+		  <!--data-ride permite extraer desde JS-->
+		  <div class="carousel-inner">
+			  <!--class="carousel-inner es el carousel interno-->
+			  <div class="carousel-item active"> 
+						  <!--Aqui dentro van las imagenes. active se coloca al primero-->
+				         <img src="img/primax-new-render-alpha.png" alt="..." class="d-block w-100">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>
+			  <div class="carousel-item"> 
+				<!--Aqui dentro van las imagenes. active ya NO se coloca-->
+				<img src="img/icono_slider.png" alt="..." class="d-block w-100">
+				<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>			  
+			</div>
+			<a href="#sliderBasico" class="carousel-control-prev" role="button" data-slide="prev">
+				<!--href va al mismo slide. data-slide="prev" dice que va al previo-->
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span> <!--Esta mostrando el icono-->
+				<span class="visually-hidden"></span>
+			</a>
+			<a href="#sliderBasico" class="carousel-control-next" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden"></span>
+			</a>
+	  </div>
+***********************************************
+Carousel agrega INDICADORES, van antes del carousel-inner
+Van antes del carousel-inner
+**********
+	  <div id="sliderBasico" class="carousel slide" data-ride="carousel"> 
+		  <!--data-ride permite extraer desde JS-->
+			<ol class="carousel-indicators">
+				<li data-target="#sliderBasico" data-slide-to="0" class="active"></li>
+				<li data-target="#sliderBasico" data-slide-to="1"></li>
+			</ol>
+		  <div class="carousel-inner">
+			  <!--class="carousel-inner es el carousel interno-->
+			  <div class="carousel-item active"> 
+						  <!--Aqui dentro van las imagenes. active se coloca al primero-->
+					<img src="img/primax-new-render-alpha.png" alt="..." class="d-block w-50">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>
+			  <div class="carousel-item"> 
+					<!--Aqui dentro van las imagenes. active ya NO se coloca-->
+					<img src="img/icono_slider.png" alt="..." class="d-block w-100">
+					<!--d-block dice que es una clase display-block de bootstrap//// w-100 ancho de 100%-->
+			  </div>			  
+			</div>
+			<a href="#sliderBasico" class="carousel-control-prev" role="button" data-slide="prev">
+				<!--href va al mismo slide. data-slide="prev" dice que va al previo-->
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span> <!--Esta mostrando el icono-->
+				<span class="visually-hidden"></span>
+			</a>
+			<a href="#sliderBasico" class="carousel-control-next" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden"></span>
+			</a>
+	  </div>
