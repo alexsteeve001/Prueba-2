@@ -16,3 +16,21 @@ h2{
 .asd{
     background-color: #f6831e;
 }
+.carousel-class{
+    padding: 10% 8% 3%;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+.text-large{
+    margin-top: 20px 0px 10px;
+    font-size: 38px;
+    font-family: 'Monotype neosansstd', sans-serif;
+    color: white;
+    line-height: 44px;
+    font-weight: 300;
+}
+.img-slider{
+    width: 529.17px;
+    height: 100%;
+}
